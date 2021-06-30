@@ -1,0 +1,21 @@
+prototype 
+
+Los objetos en JS pueden tener un objeto prototipo, que actá como plantilla y permite heredar propiedades y metodos.
+
+los métodos y propiedades de un objeto en JS son definidos en la propiedad prototype, que reside en la función constructora del objeto y no en el objeto en si mismo. Si el programa busca una propiedad o metodo dentro de un objeto y no la encuentra, revisará su objeto prototipo, y si no la encuentra, revisará el protipo del prototipo, y así sucevamente hasta llegar a Object.prototype, que sería como la raíz de un objeto. Si finalizada la búsqueda no se ha encontrado nada, el resultado será undefined
+
+
+
+Constructors
+
+Un constructor es cualquier función que se utiliza como constructor. Digamos que es un metodo especial para crear e inicializar un objeto creado a partir de una clase.
+
+Hay ocasiones que definir un objeto literal es demasiado limitado; Necesitamos una forma de crear un "tipo" de objeto que se pueda usar varias veces sin tener que redefinirlo cada vez que el programa lo requiera. La forma estándar de lograr esto es utilizar la función Object Constructor.
+
+Cuando se construye un objeto (a través de la palabra clave 'new'), automáticamente hereda todas las propiedades del prototipo del constructor del objeto.
+
+No existe una real diferencia entre un objeto literal y un constructor, pero por convención, a la hora de crear una funcion constructor, se utiliza Mayúscula en la primera letra.
+
+
+
+
