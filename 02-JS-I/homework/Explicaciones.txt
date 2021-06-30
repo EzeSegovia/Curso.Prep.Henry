@@ -1,0 +1,30 @@
+Variables
+Una variable nos permite almacenar un valor, que puede contener informacion conocida o desconocida. Y usar dicho valor en cualquier momento.
+En JS usamos la palabra clave (var), para definir una variable global y no es necesario declarar su valor inicial. Lo que se conoce como lenguaje de tipado dinámico.
+
+Strings
+Llamamos strings a bloques o cadenas de texto, y se escriben entre comillas (dobles o simples.) 
+
+Funciones (argumentos, return)
+Una función nos ayudará a optimizar código y automatizar tareas. Dentro de una función, se puede realizar una tarea específica o calcula un valor, y luego invocarla las veces que querramos. Para usarla, se utiliza la palabra reservada Function seguida de un nombre, parámetros (entre paréntesis y separados por comas) y llaves, dentro de las cuales irá el código a ejecutar.
+EJ:
+
+function sumarDosNumeros(a, b) {
+  var suma = a + b;
+  return suma;
+}
+
+sumarDosNumeros(1, 5); // 6
+
+La palabra reservada (return), nos permite retornar el valor de una función, finalizando su ejecución de forma inmediata.
+
+Declaraciones if
+
+el if es un condicional. Lo que vendría a ser en español un (si...) 
+if "x" condición se cumple (es true), ejecutará un bloque de código. Si es falsa, es posible ejecutar otras sentencias. 
+Los if, pueden contatenarse, es decir, podemos crear condiciones dentro una primer condicion if. 
+
+Valores booleanos (true, false)
+Una variable booleana es una variable que sólo puede tomar dos posibles valores: True (verdadero) o False (falso)
+Los operadores lógicos (and, or, not) y los operadores de comparación (<, <=, >, > =, ===, ! ==). Nos darán como resultado valores booleanos.
+
