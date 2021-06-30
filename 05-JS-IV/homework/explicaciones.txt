@@ -1,0 +1,36 @@
+
+OBJETOS:
+Se puede decir que en JS, la mayoría de las cosas son objetos. Un objeto es una colección de datos relacionados, que consta generalmente de algunas variables (la llamamos propiedades) y funciones (que llamamos métodos). Cuando se encuentran dentro de un objeto.
+Para crear un objeto utilizamos llaves {} y dentro definimos un nombre y un valor. El nombre y su valor lo separamos con (:) y cada par nombre/valor que ingresemos van separados por comas. EJ:
+var objeto = {
+  Nombre1: Valor1,
+  Nombre2: Valor2,
+  Nombre3: Valor3
+};
+Los valores pueden ser de cualquier tipo de dato en JS. Incluso un objeto puede contener otro objeto en su interior.
+
+PROPIEDADES Y MÉTODOS:
+
+los elementos de datos que tengamos dentro de nuestro objeto se denominan propiedades del objeto., EJ:
+
+var persona = {
+  nombre: ['Eze', 'Segovia'],
+  edad: 37,
+  genero: 'male',
+  intereses: ['music, 'chess'],
+};
+
+Y los elementos que son funciones (permiten al objeto hacer algo con esos datos), se les denomina métodos del objeto.
+
+BUCLE FOR IN
+
+Si lo que queremos es iterar sobre cada par clave/valor de nuestro objeto, es decir recorrerlo, podemos usar el bucle for...in. El bucle finalizará cuando se hayan iterado todas las claves. 
+
+NOTACIONES.
+
+Para acceder a las propiedades y métodos de un objeto, existen 2 formas. Notación de puntos (dot notation) o notación de corchetes []
+En dot notation, escribimos el nombre de un objeto, un punto (.) y seguido el nombre de la clave. EJ:
+user.edad; Donde 'user' es el nombre del objeto y 'edad' es nombre de la clave.
+También podemos hacerlo usando corchetes, Se puede llamar a cada clave envolviéndola entre corchetes y con comillas. Ej:
+user ['edad'];
+
