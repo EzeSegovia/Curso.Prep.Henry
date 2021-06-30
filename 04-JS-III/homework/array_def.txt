@@ -1,0 +1,9 @@
+Array: Una array es como una lista, la cual podemos recorrer y modificar. Para crear un array definimos el nombre de una variable seguida por corchetes []
+dentro de un array pueden ir todos los tipos de datos, incluyendo funciones y nuevos array.
+Cada elemento del array ocupa una posición, y es a partir de esa posición que podemos acceder a su contenido.
+
+Las posiciones en los arrays comienzan por el número cero, es decir, el primer número de nuestro array, tiene la posición cero.
+Ej:
+var abecedario = ['a','b','c', 'd',];
+posición:              0   1  2   3
+
