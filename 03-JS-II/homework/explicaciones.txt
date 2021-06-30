@@ -1,0 +1,27 @@
+Statement for:
+El comando for, crea un bucle que permite que una sentencia pueda ejecutarse repetidamente hasta lograr la codicion establecida. Lo que permite ahorrar código, y realizar operaciones complejas de manera fácil.
+
+Su estructura de ve de esta manera:
+for (variable inicial; condición de frenado; paso) {
+}
+
+Donde: 
+* variable inicial: representa el valor en que la variable comenzará su recorrido en el bucle. Ej: var i= 0; 
+* condición de frenado: respresenta el cuándo queremos que deje de ejecutarse el bucle. Ej: i > 100;
+* paso:  define como queremos que se incremente dicha variable. Ej: i++
+
+Luego entre corchetes {} irán las sentencias a ejecutar en cada iteración.
+
+
+Operadores Lógicos:
+
+Se utilizan para establecer si una expresión es verdadera o falsa
+ y devuelve dicho valor.
+* El operador AND se representa así (&&), y devuelve un TRUE. siempre que todas las expresiones sean TRUE.
+
+*El operador OR se representa así (||) y devuelve TRUE si al menos uno de las expresiones es TRUE. Si ambas expresiones son FALSE, devuelve FALSE.
+
+*El operador NOT se representa así (!) y devuelve el valor booleano opuesto de lo que se le pasa. Si recibe TRUE, devuelve FALSE y viceversa. 
+
+
+ 
