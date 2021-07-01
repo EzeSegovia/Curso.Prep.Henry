@@ -1,0 +1,14 @@
+Funciones Callback
+
+
+Un callback, es una función que se pasa como argumento a otra función. 
+
+Por lo general, usamos un callack cuando queremos que se ejecute una función, luego de haber fializado otra función.
+
+En otras palabras un callback, nos permite tener un mejor control sobre cuándo queremos que se ejecutar una determinada función. 
+
+La conveción para nombrar la variable que utilizará el callbak es 'cb'.
+
+ejemplo: 
+function crearSaludo(usuario, cb) {
+    return cb(usuario);
