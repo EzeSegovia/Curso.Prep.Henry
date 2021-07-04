@@ -1,0 +1,33 @@
+body {
+	background-color: wheat;"
+} 
+img {
+	float: right;
+	border: 2px solid #4b0082;
+	width: 183px; 
+	height: 164px;"
+}
+
+h1 {
+	color: indigo;
+	font-family: font-family: Times, Times New Roman, Georgia, serif;
+}
+h3 {
+	font-family: Helvetica,Arial,sans-serif; 
+	}
+p {
+  font-family: times, serif;
+  font-size: 20px;
+}
+
+ #skill {
+	 font-family: Times New Roman,Times,serif;
+	 font-size: 20px;
+ }
+ 
+#why {
+	font-size: 20px;
+	padding: 10px;
+	width: 60%;
+	border: medium double indigo;
+}
